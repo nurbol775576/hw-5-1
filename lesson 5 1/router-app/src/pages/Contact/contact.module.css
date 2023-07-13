@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.ff .img{
+    width: 100%;
+    height: 400px;
+    object-position: bottom;
+    object-fit: cover;
+}
+
+.text{
+    width: 35%;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+}

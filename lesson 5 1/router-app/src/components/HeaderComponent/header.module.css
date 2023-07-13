@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    background-color: blue;
+}
+
+h1 a{
+    font-size: 40px;
+    margin-left: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    line-height: 65px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+li {
+    list-style: none;
+}

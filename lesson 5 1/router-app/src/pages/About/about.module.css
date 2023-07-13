@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.con {
+    display: flex;
+    justify-content: space-around;
+    width: 92%;
+    margin-top: 100px;
+}
+
+.lin {
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+.allimg {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: .3s all linear;
+    position: absolute;
+}
+
+.lin .allimg:hover {
+    transform: translate(-20px, -20px);
+}
+
+.black {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+}
+
+.lolo {
+    width: 100%;
+    position: absolute;
+    color: red;
+    transition: .3s all linear;
+    text-align: center;
+    top: 30px;
+}
+
+.lin:hover .lolo {
+    transform: translate(-20px, -20px);
+    z-index: 1;
+}
+
